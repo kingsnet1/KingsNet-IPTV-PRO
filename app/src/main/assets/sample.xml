@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tv>
+  <programme start="20251101T130000Z" stop="20251101T133000Z" channel="channel1">
+    <title>News Hour</title>
+    <desc>World headlines</desc>
+  </programme>
+  <programme start="20251101T133000Z" stop="20251101T140000Z" channel="channel1">
+    <title>Market Watch</title>
+    <desc>Markets and business</desc>
+  </programme>
+</tv>

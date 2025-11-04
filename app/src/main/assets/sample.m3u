@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="channel1" tvg-logo="https://via.placeholder.com/128" group-title="News",Sample Channel 1
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+#EXTINF:-1 tvg-id="channel2" tvg-logo="https://via.placeholder.com/128" group-title="Sports",Sample Channel 2
+https://test-streams.mux.dev/test_001/stream.m3u8

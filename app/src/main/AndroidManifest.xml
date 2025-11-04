@@ -1,0 +1,25 @@
+<manifest package="com.kingsnet.iptvpro"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:label="KingsNet IPTV PRO"
+        android:icon="@mipmap/ic_launcher"
+        android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar">
+        <activity android:name=".ui.tv.TvMainActivity" />
+        <activity android:name=".ui.PlayerActivity" />
+        <activity android:name=".ui.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!-- Media session service for background playback -->
+        <service android:name=".service.MediaPlaybackService"
+                 android:exported="false" />
+    </application>
+</manifest>
